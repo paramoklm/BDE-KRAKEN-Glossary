@@ -1,8 +1,13 @@
 import React from 'react';
+import Carte from './Carte';
 
 const Collection = () => {
     return (
-        <h3>Collection des cartes</h3>
+        <div>
+            <h3>Collection des cartes</h3>
+            <Carte/>
+            <Carte/>
+        </div>
     );
 };
 
