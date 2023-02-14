@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/Header';
+import Collection from '../components/Collection';
 
 const Cartes = () => {
     return (
@@ -7,6 +8,7 @@ const Cartes = () => {
             <Header />
             <h1>Cartes</h1>
             <h2>Les différentes cartes à collecter !</h2>
+            <Collection />
         </div>
     );
 };
