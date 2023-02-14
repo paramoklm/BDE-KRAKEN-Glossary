@@ -1,0 +1,18 @@
+[
+    {
+        "login": "param.dave",
+        "role": "Respo Partenariat",
+        "promo": "2024"
+    },
+    {
+        "login": "pierre.megalli",
+        "role": "President",
+        "promo": "2024"
+    },
+    {
+        "login": "sebastien.delsart",
+        "role": "Vice President",
+        "promo": "2023"
+    }
+
+]
