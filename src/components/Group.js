@@ -1,19 +1,23 @@
 import React from 'react';
 import Membre from './Membre';
+import TitleBar from './TitleBar';
+import img from '../assets/img/param.dave.jpg'
 
-const Group = (props) => {
-    console.log(props)
+const Group = ({props}) => {
     return (
-        <div className='group'>
-        <ul>
-            {props.props.data
-            .filter((membre) => (membre.status === props.props.status))
-            .map(
-                (membre, index) => (
-                    <Membre key={index} membre={membre} />
-                )
-            )}
-        </ul>
+        <div className='group' style={
+            { backgroundImage: `url(${props.background})`, height:  'auto'}
+        }>
+            <TitleBar props={{title: props.title}}/>
+            <ul>
+                {props.data
+                    .filter((membre) => (membre.status === props.status))
+                    .map(
+                        (membre, index) => (
+                            <Membre key={index} membre={membre} />
+                        )
+                    )}
+            </ul>
 
         </div>
     );
