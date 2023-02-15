@@ -1,14 +1,14 @@
 import React from 'react';
 import Header from '../components/Header';
-import Collection from '../components/Collection';
+import Trombinoscope from '../components/Trombinoscope';
 
 const Membres = () => {
     return (
-        <div className='cartes'>
+        <div className='membres'>
             <Header />
             <h1>Membres</h1>
             <h2>Tout les membres de Kraken !</h2>
-            <Collection />
+            <Trombinoscope />
         </div>
     );
 };
