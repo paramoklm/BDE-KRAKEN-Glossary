@@ -60,6 +60,27 @@
         justify-content: center;
     }
 
+    ol {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 50%;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: gray;
+        color: white;
+        padding: 5px;
+        position: sticky;
+    }
+
+    li {
+        cursor: pointer;
+    };
+
     img {
         justify-content: center;
         margin: auto;
