@@ -7,13 +7,13 @@ const Trombinoscope = () => {
     return (
         <div className='collection'>
             <div className='collection' style={
-                { backgroundImage: `url(./wood-background.jpg)`, height: '30vh'}
+                { height: '30vh'}
                 
             }>
                 <img src="./pirate-map.png" alt="pirate-map" style={
                     {height: '30vh', width: '45%'}
                 }/>
-                <h3 className='font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-7xl' style={
+                <h3 className='font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-6xl' style={
                     {zIndex: 1}
                 }>L'EQUIPAGE</h3>
             </div>

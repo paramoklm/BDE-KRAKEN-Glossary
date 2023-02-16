@@ -5,7 +5,7 @@ import data from './data/data.json'
 const Collection = () => {
     return (
         <div className='collection'>
-            <h3>Collection de cartes</h3>
+            <h1>Collection de cartes</h1>
             <ul>
                 {data
                 .map(
