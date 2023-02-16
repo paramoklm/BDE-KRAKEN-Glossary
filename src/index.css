@@ -24,4 +24,7 @@ code {
   h1 {
     @apply font-cursive
   }
+  h3 {
+    @apply font-cursive
+  }
 }

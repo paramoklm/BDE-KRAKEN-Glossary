@@ -6,8 +6,6 @@ const Membres = () => {
     return (
         <div className='membres'>
             <Header />
-            <h1>Membres</h1>
-            <h2>Tout les membres de Kraken !</h2>
             <Trombinoscope />
         </div>
     );
