@@ -1,43 +1,43 @@
 [
     {
         "login": "pierre.megalli",
-        "role": "President",
+        "role": "Président",
         "promo": "2024",
         "status": "president"
     },
     {
         "login": "liane.david",
-        "role": "Vice-Presidente",
+        "role": "Vice-Présidente",
         "promo": "2025",
         "status": "bureau"
     },
     {
         "login": "lea.melikechi",
-        "role": "Secretaire",
+        "role": "Secrétaire",
         "promo": "2024",
         "status": "bureau"
     },
     {
         "login": "louis.garnier",
-        "role": "Vice-Tresorier",
+        "role": "Vice-Secrétaire",
         "promo": "2025",
         "status": "bureau"
     },
     {
         "login": "julien.delbosc",
-        "role": "Vice-Secretaire",
+        "role": "Vice-Trésorier",
         "promo": "2025",
         "status": "bureau"
     },
     {
         "login": "dean.halata",
-        "role": "Vice-Secretaire",
+        "role": "Vice-Secrétaire",
         "promo": "2024",
         "status": "bureau"
     },
     {
         "login": "andy.le-roy",
-        "role": "Tresorier",
+        "role": "Trésorier",
         "promo": "2024",
         "status": "bureau"
     },
@@ -67,7 +67,7 @@
     },
     {
         "login": "oscar.morand",
-        "role": "Respo Deco",
+        "role": "Respo Déco",
         "promo": "2024",
         "status": "respo"
     },
@@ -109,7 +109,7 @@
     },
     {
         "login": "vincent.muscedere",
-        "role": "Vice-President",
+        "role": "Vice-Président",
         "promo": "2023",
         "status": "bureau"
     },
@@ -189,6 +189,144 @@
         "login": "louise.hartmann",
         "role": "Staff",
         "promo": "2024",
+        "status": "staff"
+    },
+    {
+        "login": "celian.crepin",
+        "role": "Staff",
+        "promo": "Apprenti 2025",
+        "status": "staff"
+    },
+    {
+        "login": "eliot.leclair",
+        "role": "Staff",
+        "promo": "2023",
+        "status": "staff"
+    },
+    {
+        "login": "ewan.lemonnier",
+        "role": "Staff",
+        "promo": "2025",
+        "status": "staff"
+    },
+    {
+        "login": "pierre.abril",
+        "role": "Staff",
+        "promo": "Cyber 1",
+        "status": "staff"
+    },
+    {
+        "login": "felix.butin",
+        "role": "Staff",
+        "promo": "2023",
+        "status": "staff"
+    },
+    {
+        "login": "hugo.gendarme",
+        "role": "Staff",
+        "promo": "2023",
+        "status": "staff"
+    },
+    {
+        "login": "louann.monin",
+        "role": "Staff",
+        "promo": "2027",
+        "status": "staff"
+    },
+    {
+        "login": "mael.conan",
+        "role": "Staff",
+        "promo": "2024",
+        "status": "staff"
+    },
+    {
+        "login": "marius.andre",
+        "role": "Staff",
+        "promo": "2024",
+        "status": "staff"
+    },
+    {
+        "login": "massil.fehrani",
+        "role": "Staff",
+        "promo": "2023",
+        "status": "staff"
+    },
+    {
+        "login": "maxence.ramos-pariente",
+        "role": "Staff",
+        "promo": "2023",
+        "status": "staff"
+    },
+    {
+        "login": "maxence.morando",
+        "role": "Staff",
+        "promo": "2024",
+        "status": "staff"
+    },
+    {
+        "login": "merlin.bouvet-arbouche",
+        "role": "Staff",
+        "promo": "2023",
+        "status": "staff"
+    },
+    {
+        "login": "omar.el-hachimi",
+        "role": "Staff",
+        "promo": "2024",
+        "status": "staff"
+    },
+    {
+        "login": "philippe.gadelle",
+        "role": "Staff",
+        "promo": "2024",
+        "status": "staff"
+    },
+    {
+        "login": "romain.delettre",
+        "role": "Staff",
+        "promo": "Cyber 1",
+        "status": "staff"
+    },
+    {
+        "login": "seraia.cohen",
+        "role": "Staff",
+        "promo": "2023",
+        "status": "staff"
+    },
+    {
+        "login": "shams.rezgui",
+        "role": "Staff",
+        "promo": "2027",
+        "status": "staff"
+    },
+    {
+        "login": "theo.tinti",
+        "role": "Staff",
+        "promo": "2024",
+        "status": "staff"
+    },
+    {
+        "login": "tom.rottenfus",
+        "role": "Staff",
+        "promo": "2023",
+        "status": "staff"
+    },
+    {
+        "login": "wassim.badraoui",
+        "role": "Staff",
+        "promo": "2025",
+        "status": "staff"
+    },
+    {
+        "login": "yanis.chaabane",
+        "role": "Staff",
+        "promo": "2023",
+        "status": "staff"
+    },
+    {
+        "login": "zoe.breniaux",
+        "role": "Staff",
+        "promo": "2025",
         "status": "staff"
     }
 ]

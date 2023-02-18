@@ -4,15 +4,22 @@ import Pokemon from '../components/Events/Pokemon';
 import Allozaman from '../components/Events/Allozaman';
 import Minekrak from '../components/Events/Minekrak';
 import Question from '../components/Events/Question';
+import EventNavBar from '../components/Events/EventNavBar';
+import { useRef } from 'react';
 
 const Event = () => {
+    const pokemonRef = useRef(null)
+    const alloZamanRef = useRef(null)
+    const minekrakRef = useRef(null)
+    const questionRef = useRef(null)
     return (
-        <div className='fixed bg-gradient-to-r from-purple-800 via-fuchsia-700 to-orange-800 w-full h-full overflow-y-auto'>
+        <div className='fixed bg-gradient-to-r from-blue-800 via-fuchsia-700 to-green-700 w-full h-full overflow-y-auto'>
             <Header/>
-            <Pokemon/>
-            <Allozaman/>
-            <Minekrak/>
-            <Question/>
+            <EventNavBar props={{pokemonRef: pokemonRef, alloZamanRef: alloZamanRef, minekrakRef: minekrakRef, questionRef: questionRef}}/>
+            <div ref={pokemonRef}><Pokemon/></div>
+            <div ref={alloZamanRef}><Allozaman/></div>
+            <div ref={minekrakRef}><Minekrak/></div>
+            <div ref={questionRef}><Question/></div>
         </div>
     );
 };
