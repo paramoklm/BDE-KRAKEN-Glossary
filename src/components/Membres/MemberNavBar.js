@@ -2,23 +2,19 @@ import React from 'react';
 
 const MemberNavBar = ({props}) => {
 
-    const scrollToPresident = () => {
-        props.presidentRef.current.scrollIntoView({ behavior: 'smooth', block: 'center'});
-    };
     const scrollToBureau = () => {
-        props.bureauRef.current.scrollIntoView({ behavior: 'smooth', block: 'center'});
+        props.bureauRef.current.scrollIntoView({ behavior: 'smooth', block: 'start'});
     };
     const scrollToRespo = () => {
-        props.respoRef.current.scrollIntoView({ behavior: 'smooth', block: 'center'});
+        props.respoRef.current.scrollIntoView({ behavior: 'smooth', block: 'start'});
     };
     const scrollToStaff = () => {
-        props.staffRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        props.staffRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
     };
     return (
-        <div className='membernavbar rounded bg-gradient-to-r from-cyan-500 to-blue-500'>
+        <div className='membernavbar rounded bg-gradient-to-r from-purple-800 via-fuchsia-700 to-orange-800'>
             <nav>
                 <ol>
-                    <li className='font-bold' onClick={scrollToPresident}>President</li>
                     <li className='font-bold' onClick={scrollToBureau}>Bureau</li>
                     <li className='font-bold' onClick={scrollToRespo}>Respo</li>
                     <li className='font-bold' onClick={scrollToStaff}>Staff</li>

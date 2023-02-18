@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../components/Header';
-import Trombinoscope from '../components/Trombinoscope';
+import Trombinoscope from '../components/Membres/Trombinoscope';
 
 const Membres = () => {
     return (

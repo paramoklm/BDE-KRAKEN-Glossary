@@ -1,0 +1,134 @@
+[
+    {
+        "login": "l'equipage",
+        "role": "Mascotte",
+        "promo": "",
+        "status": "bureau"
+    },
+    {
+        "login": "poulpi",
+        "role": "Mascotte",
+        "promo": "",
+        "status": "bureau"
+    },
+    {
+        "login": "pierre.megalli",
+        "role": "President",
+        "promo": "2024",
+        "status": "president"
+    },
+    {
+        "login": "liane.david",
+        "role": "Vice-Presidente",
+        "promo": "2025",
+        "status": "bureau"
+    },
+    {
+        "login": "lea.melikechi",
+        "role": "Secretaire",
+        "promo": "2024",
+        "status": "bureau"
+    },
+    {
+        "login": "louis.garnier",
+        "role": "Vice-Tresorier",
+        "promo": "2025",
+        "status": "bureau"
+    },
+    {
+        "login": "julien.delbosc",
+        "role": "Vice-Secretaire",
+        "promo": "2025",
+        "status": "bureau"
+    },
+    {
+        "login": "dean.halata",
+        "role": "Vice-Secretaire",
+        "promo": "2024",
+        "status": "bureau"
+    },
+    {
+        "login": "andy.le-roy",
+        "role": "Tresorier",
+        "promo": "2024",
+        "status": "bureau"
+    },
+    {
+        "login": "come.guillier",
+        "role": "Conseiller Junior",
+        "promo": "2024",
+        "status": "bureau"
+    },
+    {
+        "login": "vincent.muscedere",
+        "role": "Vice-President",
+        "promo": "2023",
+        "status": "bureau"
+    },
+    {
+        "login": "victor.le-corre",
+        "role": "Vice-Treorier",
+        "promo": "2023",
+        "status": "bureau"
+    },
+    {
+        "login": "paul.murelli-soullier",
+        "role": "Conseiller Senior",
+        "promo": "2024",
+        "status": "bureau"
+    },
+    {
+        "login": "axelle.mandy",
+        "role": "Respo Vie Interne",
+        "promo": "2025",
+        "status": "respo"
+    },
+    {
+        "login": "baptiste.laporte",
+        "role": "Respo WEI",
+        "promo": "2024",
+        "status": "respo"
+    },
+    {
+        "login": "ernest.bardon",
+        "role": "Respo Achat",
+        "promo": "2025",
+        "status": "respo"
+    },
+    {
+        "login": "lina.diringer",
+        "role": "Respo Com",
+        "promo": "2024",
+        "status": "respo"
+    },
+    {
+        "login": "olivier.coquet",
+        "role": "Respo WEI",
+        "promo": "2024",
+        "status": "respo"
+    },
+    {
+        "login": "oscar.morand",
+        "role": "Respo Deco",
+        "promo": "2024",
+        "status": "respo"
+    },
+    {
+        "login": "param.dave",
+        "role": "Respo Partenariat",
+        "promo": "2024",
+        "status": "respo"
+    },
+    {
+        "login": "titouan.ameline-de-cadeville",
+        "role": "Respo VJ",
+        "promo": "2027",
+        "status": "respo"
+    },
+    {
+        "login": "ylies.nadir",
+        "role": "Respo Event",
+        "promo": "2024",
+        "status": "respo"
+    }
+]

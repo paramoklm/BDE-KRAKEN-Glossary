@@ -1,7 +1,7 @@
 import React from 'react';
 import Membre from './Membre';
 import TitleBar from './TitleBar';
-import img from '../assets/img/param.dave.jpg'
+import data from "./../data/data.json"
 
 const Group = ({props}) => {
     return (
@@ -9,12 +9,16 @@ const Group = ({props}) => {
             { backgroundImage: `url(${props.background})`, height:  'auto'}
         }>
             <TitleBar props={{title: props.title}}/>
+            { props.status === "bureau" ?
+                <ul>
+                    <Membre className="flex justify-center items-center" key={-1} membre={data[0]}/>
+                </ul> : null }
             <ul>
                 {props.data
                     .filter((membre) => (membre.status === props.status))
                     .map(
                         (membre, index) => (
-                            <Membre key={index} membre={membre} />
+                            <Membre className="" key={index} membre={membre} />
                         )
                     )}
             </ul>

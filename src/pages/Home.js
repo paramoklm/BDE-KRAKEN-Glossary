@@ -1,10 +1,10 @@
 import React from 'react';
 import Header from '../components/Header';
-import Introduction from '../components/Introduction';
+import Introduction from '../components/Home/Introduction';
 
 const Home = () => {
     return (
-        <div className='accueil bg-gradient-to-r from-indigo-300 via-purple-500 to-pink-700'>
+        <div className='accueil bg-gradient-to-r from-purple-800 via-fuchsia-700 to-orange-800'>
             <Header />
             <Introduction />
         </div>
