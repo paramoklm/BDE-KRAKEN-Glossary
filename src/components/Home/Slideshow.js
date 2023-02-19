@@ -1,6 +1,8 @@
 import React from 'react';
+import SlidePokemon from './SlidePokemon';
+import SlideMinekrak from './SlideMinekrak';
 
-const colors = ["#0088FE", "#00C49F", "#FFBB28"];
+const colors = ["#FDD681", "#93D4FA", "#FFBB28"];
 const delay = 2500;
 
 const Slideshow = () => {
@@ -28,18 +30,14 @@ const Slideshow = () => {
         };
     }, [index]);
     return (
-        <div className="slideshow">
+        <div className="slideshow h-1/5 my-12">
             <div
-                className="slideshowSlider"
+                className="slideshowSlider h-2/3 my-2"
                 style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
             >
-                {colors.map((backgroundColor, index) => (
-                    <div
-                        className="slide"
-                        key={index}
-                        style={{ backgroundColor }}
-                    ></div>
-                ))}
+                <SlidePokemon index={0} backgroundColor={colors[0]} key={0} />
+                <SlideMinekrak index={1} backgroundColor={colors[1]} key={1}/>
+                <SlidePokemon index={2} backgroundColor={colors[0]}key={2}/>
             </div>
 
             <div className="slideshowDots">
