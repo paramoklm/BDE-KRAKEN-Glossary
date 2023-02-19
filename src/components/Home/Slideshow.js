@@ -1,6 +1,5 @@
 import React from 'react';
-import SlidePokemon from './SlidePokemon';
-import SlideMinekrak from './SlideMinekrak';
+import Slide from './Slide';
 
 const colors = ["#FDD681", "#93D4FA", "#FFBB28"];
 const delay = 2500;
@@ -35,9 +34,9 @@ const Slideshow = () => {
                 className="slideshowSlider h-2/3 my-2"
                 style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
             >
-                <SlidePokemon index={0} backgroundColor={colors[0]} key={0} />
-                <SlideMinekrak index={1} backgroundColor={colors[1]} key={1}/>
-                <SlidePokemon index={2} backgroundColor={colors[0]}key={2}/>
+                <Slide index={0} backgroundColor={colors[0]} key={0} poulpiName="poulpikachu" banniere="pokemon-banniere" />
+                <Slide index={0} backgroundColor={colors[1]} key={1} poulpiName="poulpiminekrak" banniere="minekrak-banniere" />
+                <Slide index={0} backgroundColor={colors[0]} key={0} poulpiName="poulpikachu" banniere="pokemon-banniere" />
             </div>
 
             <div className="slideshowDots">
