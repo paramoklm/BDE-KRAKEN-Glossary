@@ -6,19 +6,19 @@ const Navigation = () => {
         <div className="navigation">
             <ul>
                 <NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")}>
-                    <li className='text-xs five:text-lg sigmar font-bold italic'>Accueil</li>
+                    <li className='text-2xs five:text-lg sigmar font-bold italic'>Accueil</li>
                 </NavLink>
                 <NavLink to="/membres" className={(nav) => (nav.isActive ? "nav-active" : "")}>
-                    <li className='text-xs five:text-lg sigmar font-bold italic'>Membres</li>
+                    <li className='text-2xs five:text-lg sigmar font-bold italic'>Membres</li>
                 </NavLink>
                 <NavLink to="/planning" className={(nav) => (nav.isActive ? "nav-active" : "")}>
-                    <li className='text-xs five:text-lg sigmar font-bold italic'>Planning</li>
+                    <li className='text-2xs five:text-lg sigmar font-bold italic'>Planning</li>
                 </NavLink>
                 <NavLink to="/events" className={(nav) => (nav.isActive ? "nav-active" : "")}>
-                    <li className='text-xs five:text-lg sigmar font-bold italic'>Events</li>
+                    <li className='text-2xs five:text-lg sigmar font-bold italic'>Events</li>
                 </NavLink>
                 <NavLink to="/cartes" className={(nav) => (nav.isActive ? "nav-active" : "")}>
-                    <li className='text-xs five:text-lg sigmar font-bold italic'>Cartes</li>
+                    <li className='text-2xs five:text-lg sigmar font-bold italic'>Cartes</li>
                 </NavLink>
             </ul>
         </div>
