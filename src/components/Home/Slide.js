@@ -1,14 +1,22 @@
 import React from 'react';
 import PoulpiSlide from './PoulpiSlide';
+import TextMinekrak from './TextMinekrak';
+import TextPokemon from './TextPokemon';
+import TextAlloZaman from './TextAlloZaman';
+import TextAfterWork from './TextAfterWork';
+import TextKrakCTF from './TextKrakCTF';
 
-const Slide = ({index, backgroundColor, poulpiName, banniere}) => {
+const Slide = ({ backgroundColor, poulpiName, banniere }) => {
     return (
-        <div className='slide h-full w-full' key={index} style={{ backgroundColor }}>
+        <div className='slide h-full w-full' style={{ backgroundColor }}>
             <div className='h-full w-full'>
                 <PoulpiSlide poulpiName={poulpiName} />
-                <div className='h-full w-5/6 flex items-center justify-center'>
-                    <img className='h-full w-3/4' src={require(`./../../assets/img/${banniere}.png`)} alt="banniere" />
-                </div>
+                {poulpiName === "poulpikachu" ? <TextPokemon />: null}
+                {poulpiName === "poulpiminekrak" ? <TextMinekrak />: null}
+                {poulpiName === "minizaman" ? <TextAlloZaman />: null}
+                {poulpiName === "poulpifete" ? <TextAfterWork />: null}
+                {poulpiName === "kraken-logo" ? <TextKrakCTF />: null}
+
             </div>
         </div>
     );

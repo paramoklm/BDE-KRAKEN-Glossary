@@ -2,7 +2,7 @@ import React from 'react';
 
 const TitleBar = ({props}) => {
     return (
-        <h1 className='titlebar font-bold sm:text-5xl text-4xl'>
+        <h1 className='lobster titlebar font-bold text-6xl'>
             {props.title}
         </h1>
     );

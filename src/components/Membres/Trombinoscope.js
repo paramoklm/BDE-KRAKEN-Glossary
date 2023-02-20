@@ -22,7 +22,7 @@ const Trombinoscope = () => {
                     <img src="./pirate-map.png" alt="pirate-map" style={
                         { height: '30vh', width: '45%' }
                     } />
-                    <h3 className='font-bold text-xl sm:text-xl md:text-4xl lg:text-5xl xl:text-6xl' style={
+                    <h3 className='lobster font-bold text-sm four:text-xl five:text-2xl six:text-3xl seven:text-4xl nine:text-5xl twelve:text-6xl fourteen:text-8xl' style={
                         { zIndex: 1 }
                     }>L'EQUIPAGE</h3>
                 </div>

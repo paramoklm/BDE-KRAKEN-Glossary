@@ -6,19 +6,19 @@ const Navigation = () => {
         <div className="navigation">
             <ul>
                 <NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")}>
-                    <li>Accueil</li>
+                    <li className='hover:bg-blue-400 font-bold bg-gradient-to-r from-purple-800 via-fuchsia-700 to-purple-800 rounded'>Accueil</li>
                 </NavLink>
                 <NavLink to="/membres" className={(nav) => (nav.isActive ? "nav-active" : "")}>
-                    <li>Membres</li>
+                    <li className='hover:bg-blue-400 font-bold bg-gradient-to-r from-purple-800 via-fuchsia-700 to-purple-800 rounded'>Membres</li>
                 </NavLink>
                 <NavLink to="/planning" className={(nav) => (nav.isActive ? "nav-active" : "")}>
-                    <li>Planning</li>
+                    <li className='hover:bg-blue-400 font-bold bg-gradient-to-r from-purple-800 via-fuchsia-700 to-purple-800 rounded'>Planning</li>
                 </NavLink>
                 <NavLink to="/events" className={(nav) => (nav.isActive ? "nav-active" : "")}>
-                    <li>Events</li>
+                    <li className='hover:bg-blue-400 font-bold bg-gradient-to-r from-purple-800 via-fuchsia-700 to-purple-800 rounded'>Events</li>
                 </NavLink>
                 <NavLink to="/cartes" className={(nav) => (nav.isActive ? "nav-active" : "")}>
-                    <li>Cartes</li>
+                    <li className='hover:bg-blue-400 font-bold bg-gradient-to-r from-purple-800 via-fuchsia-700 to-purple-800 rounded'>Cartes</li>
                 </NavLink>
             </ul>
         </div>

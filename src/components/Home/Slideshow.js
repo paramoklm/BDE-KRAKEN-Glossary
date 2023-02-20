@@ -1,7 +1,7 @@
 import React from 'react';
 import Slide from './Slide';
 
-const colors = ["#FDD681", "#93D4FA", "#FFBB28"];
+const colors = ["#FDD681", "#93D4FA", "#302B5A", "#D82D68", "#929292"];
 const delay = 2500;
 
 const Slideshow = () => {
@@ -34,9 +34,11 @@ const Slideshow = () => {
                 className="slideshowSlider h-2/3 my-2"
                 style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
             >
-                <Slide index={0} backgroundColor={colors[0]} key={0} poulpiName="poulpikachu" banniere="pokemon-banniere" />
-                <Slide index={0} backgroundColor={colors[1]} key={1} poulpiName="poulpiminekrak" banniere="minekrak-banniere" />
-                <Slide index={0} backgroundColor={colors[0]} key={0} poulpiName="poulpikachu" banniere="pokemon-banniere" />
+                <Slide backgroundColor={colors[0]} key={0} poulpiName="poulpikachu" banniere="pokemon-banniere" />
+                <Slide backgroundColor={colors[1]} key={1} poulpiName="poulpiminekrak" banniere="minekrak-banniere" />
+                <Slide backgroundColor={colors[2]} key={2} poulpiName="minizaman" banniere="pokemon-banniere" />
+                <Slide backgroundColor={colors[3]} key={3} poulpiName="poulpifete" banniere="pokemon-banniere" />
+                <Slide backgroundColor={colors[4]} key={4} poulpiName="kraken-logo" banniere="pokemon-banniere" />
             </div>
 
             <div className="slideshowDots">
