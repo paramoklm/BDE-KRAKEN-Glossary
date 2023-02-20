@@ -16,6 +16,7 @@ const Planning = () => {
                         <img className='rounded' src={require('./../assets/img/mardi.png')} alt="planning-jour" />
                         <img className='rounded ' src={require('./../assets/img/mercredi-1.png')} alt="planning-jour" />
                         <img className='rounded ' src={require('./../assets/img/mercredi-2.png')} alt="planning-jour" />
+                        <img className='rounded ' src={require('./../assets/img/jeudi.png')} alt="planning-jour" />
                     </ul>
 
                 </div>
