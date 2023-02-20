@@ -30,6 +30,12 @@
         "status": "bureau"
     },
     {
+        "login": "dean.halata",
+        "role": "Vice-Secrétaire",
+        "promo": "2024",
+        "status": "bureau"
+    },
+    {
         "login": "louis.garnier",
         "role": "Vice-Secrétaire",
         "promo": "2025",
@@ -42,8 +48,14 @@
         "status": "bureau"
     },
     {
-        "login": "dean.halata",
-        "role": "Vice-Secrétaire",
+        "login": "victor.le-corre",
+        "role": "Vice-Trésorier",
+        "promo": "2023",
+        "status": "bureau"
+    },
+    {
+        "login": "paul.murelli-soullier",
+        "role": "Conseiller Senior",
         "promo": "2024",
         "status": "bureau"
     },
@@ -51,12 +63,6 @@
         "login": "come.guillier",
         "role": "Conseiller Junior",
         "promo": "2024",
-        "status": "bureau"
-    },
-    {
-        "login": "victor.le-corre",
-        "role": "Vice-Trésorier",
-        "promo": "2023",
         "status": "bureau"
     },
     {
@@ -70,12 +76,6 @@
         "role": "Respo VJ",
         "promo": "2027",
         "status": "respo"
-    },
-    {
-        "login": "paul.murelli-soullier",
-        "role": "Conseiller Senior",
-        "promo": "2024",
-        "status": "bureau"
     },
     {
         "login": "oscar.morand",
