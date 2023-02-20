@@ -6,19 +6,19 @@ const Navigation = () => {
         <div className="navigation">
             <ul>
                 <NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")}>
-                    <li className='text-xs four:text-sm hover:bg-blue-400 px-1 font-bold bg-gradient-to-r from-purple-800 via-fuchsia-700 to-purple-800 rounded'>Accueil</li>
+                    <li className='text-xs four:text-lg sigmar font-bold italic'>Accueil</li>
                 </NavLink>
                 <NavLink to="/membres" className={(nav) => (nav.isActive ? "nav-active" : "")}>
-                    <li className='text-xs four:text-sm hover:bg-blue-400 px-1 font-bold bg-gradient-to-r from-purple-800 via-fuchsia-700 to-purple-800 rounded'>Membres</li>
+                    <li className='text-xs four:text-lg sigmar font-bold italic'>Membres</li>
                 </NavLink>
                 <NavLink to="/planning" className={(nav) => (nav.isActive ? "nav-active" : "")}>
-                    <li className='text-xs four:text-sm hover:bg-blue-400 px-1 font-bold bg-gradient-to-r from-purple-800 via-fuchsia-700 to-purple-800 rounded'>Planning</li>
+                    <li className='text-xs four:text-lg sigmar font-bold italic'>Planning</li>
                 </NavLink>
                 <NavLink to="/events" className={(nav) => (nav.isActive ? "nav-active" : "")}>
-                    <li className='text-xs four:text-sm hover:bg-blue-400 px-1 font-bold bg-gradient-to-r from-purple-800 via-fuchsia-700 to-purple-800 rounded'>Events</li>
+                    <li className='text-xs four:text-lg sigmar font-bold italic'>Events</li>
                 </NavLink>
                 <NavLink to="/cartes" className={(nav) => (nav.isActive ? "nav-active" : "")}>
-                    <li className='text-xs four:text-sm hover:bg-blue-400 px-1 font-bold bg-gradient-to-r from-purple-800 via-fuchsia-700 to-purple-800 rounded'>Cartes</li>
+                    <li className='text-xs four:text-lg sigmar font-bold italic'>Cartes</li>
                 </NavLink>
             </ul>
         </div>
