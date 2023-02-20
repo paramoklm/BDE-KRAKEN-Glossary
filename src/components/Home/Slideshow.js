@@ -38,7 +38,7 @@ const Slideshow = () => {
                 <Slide backgroundColor={colors[1]} key={1} poulpiName="poulpiminekrak" banniere="minekrak-banniere" />
                 <Slide backgroundColor={colors[2]} key={2} poulpiName="minizaman" banniere="pokemon-banniere" />
                 <Slide backgroundColor={colors[3]} key={3} poulpiName="poulpifete" banniere="pokemon-banniere" />
-                <Slide backgroundColor={colors[4]} key={4} poulpiName="kraken-logo" banniere="pokemon-banniere" />
+                <Slide backgroundColor={colors[4]} key={4} poulpiName="poulpictf" banniere="pokemon-banniere" />
             </div>
 
             <div className="slideshowDots">

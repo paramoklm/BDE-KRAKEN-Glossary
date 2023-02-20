@@ -15,7 +15,7 @@ const Slide = ({ backgroundColor, poulpiName, banniere }) => {
                 {poulpiName === "poulpiminekrak" ? <TextMinekrak />: null}
                 {poulpiName === "minizaman" ? <TextAlloZaman />: null}
                 {poulpiName === "poulpifete" ? <TextAfterWork />: null}
-                {poulpiName === "kraken-logo" ? <TextKrakCTF />: null}
+                {poulpiName === "poulpictf" ? <TextKrakCTF />: null}
 
             </div>
         </div>
