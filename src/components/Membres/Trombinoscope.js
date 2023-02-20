@@ -16,13 +16,11 @@ const Trombinoscope = () => {
         <div>
             <MemberNavBar props={{presidentRef: presidentRef, bureauRef: bureauRef, respoRef: respoRef, staffRef: staffRef}}/>
             <div className='collection' style={{top: '40px'}}>
-                <div className='collection' style={
+                <div className='collection flex justify-content' style={
                     { height: '30vh' }}>
 
-                    <img src="./pirate-map.png" alt="pirate-map" style={
-                        { height: '30vh', width: '45%' }
-                    } />
-                    <h3 className='lobster font-bold text-sm four:text-xl five:text-2xl six:text-3xl seven:text-4xl nine:text-5xl twelve:text-6xl fourteen:text-8xl' style={
+                    <img src={require(`./../../assets/img/planche.png`)} alt="planche" className='h-1/2 four:h-1/2 five:h-3/4 w-1/2 four:w-1/2'/>
+                    <h3 className='lobster font-bold text-lg three:text-2xl five:text-3xl six:text-4xl seven:text-5xl twelve:text-6xl fourteen:text-8xl' style={
                         { zIndex: 1 }
                     }>L'EQUIPAGE</h3>
                 </div>
