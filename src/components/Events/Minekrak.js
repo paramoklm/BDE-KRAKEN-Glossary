@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Minekrak = () => {
-    const videoId = 'TbUxeg9lgqo';
+    const videoId = 'nxN9zU_DJW8';
     return (
         <div className='border-double border-8 border-green-800 rounded-lg bg-black bg-opacity-70 w-5/6 mx-auto my-3'>
             <div className='flex justify-center mx-5 my-5'>
