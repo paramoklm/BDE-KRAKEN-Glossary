@@ -126,12 +126,6 @@
         "status": "staff"
     },
     {
-        "login": "sacha.athias",
-        "role": "Staff",
-        "promo": "2023",
-        "status": "staff"
-    },
-    {
         "login": "charles.leroy",
         "role": "Staff",
         "promo": "2025",
@@ -204,33 +198,9 @@
         "status": "staff"
     },
     {
-        "login": "eliot.leclair",
-        "role": "Staff",
-        "promo": "2023",
-        "status": "staff"
-    },
-    {
-        "login": "ewan.lemonnier",
-        "role": "Staff",
-        "promo": "2025",
-        "status": "staff"
-    },
-    {
         "login": "pierre.abril",
         "role": "Staff",
         "promo": "Cyber 1",
-        "status": "staff"
-    },
-    {
-        "login": "felix.butin",
-        "role": "Staff",
-        "promo": "2023",
-        "status": "staff"
-    },
-    {
-        "login": "hugo.gendarme",
-        "role": "Staff",
-        "promo": "2023",
         "status": "staff"
     },
     {
@@ -258,21 +228,9 @@
         "status": "staff"
     },
     {
-        "login": "maxence.morando",
-        "role": "Staff",
-        "promo": "2024",
-        "status": "staff"
-    },
-    {
         "login": "merlin.bouvet-arbouche",
         "role": "Staff",
         "promo": "2023",
-        "status": "staff"
-    },
-    {
-        "login": "omar.el-hachimi",
-        "role": "Staff",
-        "promo": "2024",
         "status": "staff"
     },
     {
@@ -309,12 +267,6 @@
         "login": "tom.rottenfus",
         "role": "Staff",
         "promo": "2023",
-        "status": "staff"
-    },
-    {
-        "login": "wassim.badraoui",
-        "role": "Staff",
-        "promo": "2025",
         "status": "staff"
     },
     {
