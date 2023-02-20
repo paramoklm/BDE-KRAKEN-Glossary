@@ -18,6 +18,12 @@
         "status": "bureau"
     },
     {
+        "login": "andy.le-roy",
+        "role": "Trésorier",
+        "promo": "2024",
+        "status": "bureau"
+    },
+    {
         "login": "louis.garnier",
         "role": "Vice-Secrétaire",
         "promo": "2025",
@@ -32,12 +38,6 @@
     {
         "login": "dean.halata",
         "role": "Vice-Secrétaire",
-        "promo": "2024",
-        "status": "bureau"
-    },
-    {
-        "login": "andy.le-roy",
-        "role": "Trésorier",
         "promo": "2024",
         "status": "bureau"
     },
