@@ -12,6 +12,12 @@
         "status": "bureau"
     },
     {
+        "login": "vincent.muscedere",
+        "role": "Vice-Président",
+        "promo": "2023",
+        "status": "bureau"
+    },
+    {
         "login": "lea.melikechi",
         "role": "Secrétaire",
         "promo": "2024",
@@ -112,12 +118,6 @@
         "role": "Respo Vie Interne",
         "promo": "2025",
         "status": "respo"
-    },
-    {
-        "login": "vincent.muscedere",
-        "role": "Vice-Président",
-        "promo": "2023",
-        "status": "bureau"
     },
     {
         "login": "zoe.harris",
