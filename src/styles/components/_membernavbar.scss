@@ -1,0 +1,23 @@
+.membernavbar {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    ol {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        padding: 5px;
+    }
+
+    li {
+        cursor: pointer;
+    };
+}

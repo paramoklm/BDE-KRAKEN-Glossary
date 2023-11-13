@@ -1,0 +1,38 @@
+$font-1: "font-1", sans-serif;
+
+$color-1: orange;
+$color-2: salmon;
+$color-3: #282c34;
+$white: rgb(243, 243, 243);
+$bg-home: rgb(85, 3, 85);
+$bg-membres: rgb(255, 85, 0);
+$bg-cartes: rgb(2, 2, 109);
+
+@mixin verticalCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: $white;
+    font-family: $font-1;
+    overflow-y: auto;
+    overflow-x: auto;
+    // @include verticalCenter;
+}
+
+#growth {
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+li {
+    list-style-type: none;
+}

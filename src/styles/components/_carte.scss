@@ -1,0 +1,22 @@
+.carte {
+    position: relative;
+    height: 250px;
+    width: 170px;
+    border-radius: 4px;
+    transition: 0.3s;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-bottom: 10px;
+  
+    h2 {
+      font-size: 1rem;
+    }
+  
+    .imga {
+      height: 250px;
+      width: 170px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+  }
+  
